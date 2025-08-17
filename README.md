@@ -25,3 +25,7 @@ python app.py
 5)open the browser and go to=
  http://127.0.0.1:5000
 
+#Technologies Used:
+Python 3.x
+Flask (for backend & routing)
+HTML/CSS (for frontend templates)
