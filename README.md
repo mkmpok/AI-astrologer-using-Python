@@ -8,7 +8,8 @@ Allows the user to ask one free-text question (e.g., "How is my career?").
 Simple, clean UI built with HTML templates.
 
 #installation & setup:
-1)clone the repository
+1)clone the repository=
+https://github.com/mkmpok/AI-astrologer-using-Python.git
 
 2)create a virtual environment=
 python -m venv venv
