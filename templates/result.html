@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Astrology Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2> Your Astrology Prediction</h2>
+        <div class="result-box">
+            <p>{{ prediction }}</p>
+        </div>
+
+        <h3>Ask a Free Question</h3>
+        <form action="/ask" method="POST">
+            <input type="text" name="question" placeholder="Ask about career, love, health..." required><br>
+            <button type="submit">Ask</button>
+        </form>
+    </div>
+</body>
+</html>
